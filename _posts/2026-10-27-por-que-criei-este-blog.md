@@ -22,9 +22,9 @@ Meu foco será contar como me organizei, quais foram meus maiores obstáculos, o
 
 Os relatos individuais serão organizados por certificação, priorizando o lado humano e metodológico da experiência.
 
-## Aprender sem revelar o exame
+## Da experiência à metodologia
 
-Uma experiência valiosa não precisa expor comandos, respostas ou detalhes internos de uma avaliação. É possível falar sobre decisões, dificuldades, preparação e evolução profissional respeitando a confidencialidade dos exames.
+Além de contar como foram meus estudos e desafios, quero organizar o conhecimento em trilhas de reconhecimento, enumeração, análise e documentação. A ideia é compartilhar não apenas o que aprendi, mas **como estruturo meu raciocínio diante de novos desafios**.
 
-Esse será o compromisso deste espaço: **compartilhar a jornada, não o conteúdo da prova**.
+Os relatos mostram a evolução ao longo das certificações; as [metodologias]({{ '/metodologias/' | relative_url }}) transformam essas lições em referências para consultar e aprimorar.
 
