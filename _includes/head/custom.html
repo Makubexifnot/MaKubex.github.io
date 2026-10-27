@@ -1,2 +1,25 @@
+<!-- Define o tema antes da renderização para minimizar a troca de cores. -->
+<script>
+  (function () {
+    var saved = null;
+    try { saved = window.localStorage.getItem("makubex-color-mode"); } catch (error) {}
+    var systemDark = window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var dark = saved === "dark" || (saved !== "light" && systemDark);
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+  }());
+</script>
+<!-- A variante escura usa a paleta oficial do Minimal Mistakes. -->
+<link id="journal-dark-stylesheet" rel="stylesheet"
+      href="{{ '/assets/css/dark.css' | relative_url }}"
+      media="(prefers-color-scheme: dark)">
+<script>
+  (function () {
+    var darkCss = document.getElementById("journal-dark-stylesheet");
+    darkCss.media = document.documentElement.getAttribute("data-theme") === "dark"
+      ? "all" : "not all";
+  }());
+</script>
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<script src="{{ '/assets/js/theme-toggle.js' | relative_url }}" defer></script>
 <meta name="theme-color" content="#15273d">
