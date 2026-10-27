@@ -75,7 +75,7 @@ Para estudar e organizar as avaliações, gosto de um fluxo que começa com o re
 
 **Escopo → inventário de ativos → portas e serviços → DNS → VHOSTs, quando aplicáveis → enumeração específica → hipóteses → validação → reenumeração → documentação.**
 
-Dependendo do ambiente e das permissões disponíveis, o processo pode envolver outras etapas, como análise de identidades, relações de confiança, permissões de sistemas e conexões entre ativos.
+Dependendo do ambiente e das permissões disponíveis, o processo pode envolver outras etapas, como análise de identidades, relações de confiança, pivoting, Buffer ovewflow, movimentação lateral, permissões de sistemas e conexões entre ativos.
 
 O importante é ter uma **metodologia adaptável**. Se surgir uma nova aplicação, volte ao mapeamento Web. Se um host fizer parte de um domínio, relacione as descobertas com o Active Directory. Se uma informação não conduzir a nada, registre e avance com critério.
 
