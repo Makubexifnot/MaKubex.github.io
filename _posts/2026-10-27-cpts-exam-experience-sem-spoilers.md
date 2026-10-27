@@ -15,13 +15,20 @@ toc_label: "Neste relato"
 toc_sticky: true
 ---
 
-> **Sobre este relato:** esta é uma versão inicial construída a partir de fatos já compartilhados sobre minha preparação e sobre o feedback do meu relatório. Não é um walkthrough e não revela informações sobre alvos, credenciais, flags, soluções ou infraestrutura do exame. Aspectos pessoais e cronológicos ainda podem ser ampliados posteriormente.
+> **Sobre este relato:** esta é uma versão inicial construída a partir de fatos já compartilhados sobre minha preparação e sobre o feedback do meu relatório. Não é um walkthrough e não revela informações sobre alvos, credenciais, flags, soluções ou infraestrutura do exame.
 
 ## Meu contexto
 
-Eu já vinha estudando e trabalhando com segurança ofensiva, com experiências em aplicações web, sistemas Windows e Linux e ambientes Active Directory. Depois de certificações anteriores, encarei o **CPTS (Certified Penetration Testing Specialist), da Hack The Box**, como mais uma oportunidade de aprofundar a metodologia e aprimorar minha capacidade de documentar uma avaliação prática.
+Eu já vinha estudando e trabalhando com segurança ofensiva, com experiências em aplicações web, sistemas Windows e Linux e ambientes Active Directory. Depois de certificações anteriores, encarei o **CPTS (Certified Penetration Testing Specialist), da Hack The Box**, como mais uma oportunidade de aprofundar a metodologia e aprimorar minha capacidade de documentar uma avaliação prática. Alguns de vocês devem se perguntar **"Porque CPTS?"**, mas prefiro que vocês se perguntem **"Porque não CPTS?"**.
 
-Uma das principais lições desse processo foi perceber que **identificar uma falha e comunicá-la de modo profissional são competências diferentes e igualmente importantes**.
+Consegui realizar o exame em exatamente 1 dia e 16horas com apenas 4 horas de descanso, porém meu maior trabalho não foi o exame e sim a documentação. Levem a documentação bem a sério! 
+
+Uma das principais lições desse processo foi que nem tudo é realmente importante, haverá diversas informações ou credenciais que te levaram a nada.
+
+Uma outra dica muito importante é IMAGINE o funcionamento do ambiente! Antes de realizar qualquer certificação sempre imagino o que posso encontrar e me preparo antes desde a confiugração do meu garuda a scripts pré-configurados como msfvenom/burp-suite, bloodhound ligado pronto para receber seu import, e qualquer similar, comandos pré-configurados como: **nmap -sC -Pn --min-rate=5000 <alvo> -oN scan_1k_<alvo>**, sites como **https://md5decrypt.net/** para descriptografia de hashes, etc.
+
+Antes de eu iniciar o exame eu já sábia como ele deveria ser e acredito que o modúlo **Attacking Enterprise Networks** ajuda bastante nisso, quero dizer pelo menos na fase inicial. Então imagine, será que vou começar em um alvo externo, terei que comprometer uma aplicação web, terei que realizar algum tipo de credential hunting, descobrir outros vhosts e a partir daí irá começar meu verdadeiro trabalho? Será que existirá uma aplicação php? Será que a aplicação php possa ser vulnerável a um LFI/PHP Wrappers ou ataques semelhantes? Será que a aplicação web será vulnerável a um SQLI? Se sim, que campo seria? De login? De e-mail para recuperação de senha? E daí você vai montando sua metodologia própria!
+
 
 ## O papel da metodologia
 
@@ -29,7 +36,7 @@ A organização do trabalho se tornou um tema central para mim. Em avaliações 
 
 A estrutura que considero mais útil para manter o raciocínio é:
 
-**Portas → DNS → VHOSTs → serviços → hipótese → validação → reenumeração → evidências e relatório.**
+**Portas → DNS → VHOSTs → serviços → hipótese → Rede interna → Privecsc/Pivoting → Identificação de ativos → Enumeração → Credential Hunting → Movimentação lateral → validação → reenumeração → evidências e relatório.**
 
 Essa é uma metodologia **geral e transferível**, não a sequência exata dos sistemas da prova. Documentei o processo em uma seção separada do blog:
 
@@ -50,7 +57,7 @@ Outra prática importante é separar o caderno pessoal de investigação do mate
 
 ## Minha maior dificuldade: o relatório
 
-Uma dificuldade concreta da minha jornada com o CPTS foi a **apresentação profissional do relatório**. Recebi feedback solicitando melhorias substanciais na estrutura e na forma de demonstrar os achados.
+Uma dificuldade concreta da minha jornada com o CPTS foi a **apresentação profissional do relatório**. Recebi feedback solicitando melhorias substanciais na estrutura e na forma de demonstrar os achados (por mais de estarem já bem definidos).
 
 Os pontos mais importantes que precisei revisar foram:
 
@@ -70,7 +77,8 @@ Se eu estivesse organizando uma nova avaliação prática, daria atenção espec
 1. Criar desde o início uma estrutura de notas baseada em ativos, hipóteses e evidências.
 2. Registrar a conclusão e o impacto de cada achado enquanto o contexto ainda está claro.
 3. Reservar uma etapa específica para revisar coerência entre resumo, detalhes técnicos e recomendações.
-4. Ler o relatório como se fosse alguém que não acompanhou a investigação e precisa entender o que aconteceu sem fazer suposições.
+4. Entender mais o fluxo de como as máquinas estão conectadas e quais máquinas realmente estão conectadas.
+6. Ler o relatório como se fosse alguém que não acompanhou a investigação e precisa entender o que aconteceu sem fazer suposições.
 
 Esses cuidados servem tanto para certificações quanto para trabalhos profissionais de pentest.
 
