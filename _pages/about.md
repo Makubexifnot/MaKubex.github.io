@@ -4,7 +4,7 @@ title: "Sobre mim"
 author_profile: true
 ---
 
-Sou um profissional de **segurança ofensiva**, com atuação em atividades de Purple Team, Red Team e testes de intrusão.
+Sou um profissional de **segurança ofensiva**, com atuação mais de 5 anos em atividades de Purple Team, Red Team e testes de intrusão.
 
 Criei este blog para documentar a parte menos visível da preparação para certificações: a organização do estudo, a experiência emocional durante uma prova prática, os obstáculos e, principalmente, as lições que podem ajudar outras pessoas.
 
