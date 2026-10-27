@@ -1,10 +1,10 @@
 ---
 permalink: /experiencias/
 title: "Experiências de exames"
-excerpt: "Como foi a preparação, o dia da prova, os obstáculos e o que aprendi — sem spoilers."
+excerpt: "Preparação, desafios, decisões e aprendizados ao longo das certificações."
 ---
 
-Aqui estão os relatos de certificações que decidi tornar públicos. Minha base transversal de trabalho está em [Metodologias de Enumeração]({{ '/metodologias/' | relative_url }}). Priorizei experiências pessoais e recomendações, evitando qualquer detalhe sigiloso das avaliações.
+Aqui estão os relatos de certificações que decidi tornar públicos. Minha base transversal de trabalho está em [Metodologias de Enumeração]({{ '/metodologias/' | relative_url }}). Os textos abordam minha preparação, os momentos mais desafiadores e as lições que levo para novos estudos e projetos.
 
 {% assign exam_posts = site.posts | where_exp: "post", "post.categories contains 'exam-experience'" %}
 {% if exam_posts.size > 0 %}
@@ -17,5 +17,3 @@ Aqui estão os relatos de certificações que decidi tornar públicos. Minha bas
 {% else %}
 Os relatos individuais estão em preparação. Enquanto isso, conheça [o propósito deste blog]({{ '/journal/por-que-criei-este-blog/' | relative_url }}).
 {% endif %}
-
-Quer saber quais informações não serão compartilhadas? Leia a [política anti-spoilers]({{ '/sem-spoilers/' | relative_url }}).
