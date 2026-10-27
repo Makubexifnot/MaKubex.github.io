@@ -6,10 +6,10 @@ categories:
 tags:
   - certificacoes
   - experiencia
-excerpt: "O que aprendi com a preparação e com o dia da prova, sem spoilers."
+excerpt: "Preparação, desafios e lições aprendidas durante a certificação."
 ---
 
-> **Antes de publicar:** substitua os trechos entre colchetes, confira as regras da certificadora e retire qualquer detalhe de prova.
+> **Rascunho:** desenvolva os tópicos abaixo com seus relatos e revise o texto antes de publicar.
 
 ## Por que escolhi essa certificação?
 
@@ -17,7 +17,7 @@ excerpt: "O que aprendi com a preparação e com o dia da prova, sem spoilers."
 
 ## Como foi minha preparação?
 
-[Descreva, sem material confidencial, rotina de estudos, recursos públicos, equilíbrio entre teoria e prática e dificuldades anteriores.]
+[Descreva sua rotina de estudos, recursos utilizados, equilíbrio entre teoria e prática e dificuldades anteriores.]
 
 ## A véspera do exame
 
@@ -25,11 +25,11 @@ excerpt: "O que aprendi com a preparação e com o dia da prova, sem spoilers."
 
 ## O dia do exame — início
 
-[Como organizou seu espaço, seu tempo e suas primeiras decisões? Não mencione alvos nem tarefas da avaliação.]
+[Como organizou o ambiente, o tempo disponível, as anotações e as primeiras decisões?]
 
 ## O dia do exame — momentos difíceis
 
-[Descreva frustração, bloqueio, cansaço e como retomou o foco, sem revelar pistas ou informações técnicas da prova.]
+[Descreva frustrações, bloqueios, cansaço e como retomou o foco.]
 
 ## Pausas e gerenciamento do tempo
 
@@ -37,11 +37,11 @@ excerpt: "O que aprendi com a preparação e com o dia da prova, sem spoilers."
 
 ## Documentação e encerramento
 
-[Explique o que aprendeu sobre organização da documentação sem expor evidências, respostas ou achados específicos.]
+[Explique o que aprendeu sobre a organização das evidências, clareza do texto e revisão do relatório.]
 
 ## O que faria diferente?
 
-[Três aprendizados pessoais concretos e não confidenciais.]
+[Três aprendizados pessoais concretos e como pretende aplicá-los.]
 
 ## Dicas para próximos candidatos
 
