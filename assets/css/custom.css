@@ -1,0 +1,15 @@
+/* Ajustes discretos sobre o tema Minimal Mistakes */
+:root { --brand-ink: #15273d; --brand-blue: #266d99; }
+.greedy-nav a, .site-title, .page__title { letter-spacing: -.015em; }
+.page__title { line-height: 1.18; }
+.page__content h2 { padding-bottom: .28em; border-bottom: 1px solid #e6edf2; }
+.page__content h3 { color: #2c4d65; }
+.page__content p, .page__content li { line-height: 1.85; }
+.page__content blockquote { border-left: 4px solid var(--brand-blue); background: #f6f9fc; padding: .6rem 1rem; }
+.page__content table { font-size: .86em; }
+.page__content th { background: #f0f5f9; }
+a { transition: color .15s ease; }
+.btn--primary { background: var(--brand-ink); }
+.btn--primary:hover { background: var(--brand-blue); }
+.author__avatar img { border-radius: 50%; }
+@media (max-width: 767px) { .page__content p, .page__content li { line-height: 1.7; } }
