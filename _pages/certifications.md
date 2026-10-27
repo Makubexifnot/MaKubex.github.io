@@ -8,8 +8,8 @@ Cada certificação representa uma etapa diferente do meu desenvolvimento profis
 
 | Certificação | Foco principal | Relato |
 |---|---|---|
-| **eJPT** | Fundamentos de pentest | Em elaboração |
-| **eCPPT** | Pentest e metodologia | Em elaboração |
+| **eJPT** | Fundamentos de pentest | [Ler experiência]({{ '/experiencias/ejpt/' | relative_url }}) |
+| **eCPPT** | Pentest e metodologia | [Ler experiência]({{ '/experiencias/ecppt/' | relative_url }}) |
 | **CPTS** | Avaliação prática de intrusão | [Ler experiência]({{ '/experiencias/cpts/' | relative_url }}) |
 | **CAPen** | Segurança ofensiva | Em elaboração |
 | **CRTA** | Red Team e Active Directory | Em elaboração |
