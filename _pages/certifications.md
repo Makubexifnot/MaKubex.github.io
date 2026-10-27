@@ -14,9 +14,9 @@ Cada certificação representa uma etapa diferente do meu desenvolvimento profis
 | **CAPen** | Pentest de aplicações web | [Ler experiência]({{ '/experiencias/capen/' | relative_url }}) |
 | **CRTA** | Red Team e Active Directory | Em elaboração |
 | **WEB-RTA** | Segurança ofensiva em aplicações web | Em elaboração |
-| **C3SA** | Experiência e foco a detalhar | Em elaboração |
-| **CNSP** | Segurança de redes e pentest | Em elaboração |
-| **CAPv2** | Experiência e foco a detalhar | Em elaboração |
+| **C3SA** | Fundamentos de cybersecurity | [Ler experiência]({{ '/experiencias/c3sa/' | relative_url }}) |
+| **CNSP** | Fundamentos de segurança de redes | [Ler experiência]({{ '/experiencias/cnsp/' | relative_url }}) |
+| **CAPv2 (CAP)** | Fundamentos de AppSec | [Ler experiência]({{ '/experiencias/capv2/' | relative_url }}) |
 | **CWES** | Segurança de aplicações web | Espaço reservado para relato futuro |
 | **CJCA** | Jornada de desenvolvimento técnico | Espaço reservado para relato futuro |
 
