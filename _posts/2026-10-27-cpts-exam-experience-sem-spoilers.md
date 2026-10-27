@@ -21,7 +21,7 @@ toc_sticky: true
 
 Eu já vinha estudando e trabalhando com segurança ofensiva, com experiências em aplicações web, sistemas Windows e Linux e ambientes Active Directory. Depois de certificações anteriores, encarei o **CPTS (Certified Penetration Testing Specialist), da Hack The Box**, como mais uma oportunidade de aprofundar a metodologia e aprimorar minha capacidade de documentar uma avaliação prática. Alguns de vocês devem se perguntar **"Porque CPTS?"**, mas prefiro que vocês se perguntem **"Porque não CPTS?"**.
 
-Consegui realizar o exame em exatamente 1 dia e 16horas com apenas 4 horas de descanso, porém meu maior trabalho não foi o exame e sim a documentação. Levem a documentação bem a sério! 
+Consegui realizar o exame em exatamente 1 dia e 16h com apenas 4 horas de descanso, porém meu maior trabalho não foi o exame e sim a documentação. Levem a documentação bem a sério! 
 
 Uma das principais lições desse processo foi que nem tudo é realmente importante, haverá diversas informações ou credenciais que te levaram a nada.
 
