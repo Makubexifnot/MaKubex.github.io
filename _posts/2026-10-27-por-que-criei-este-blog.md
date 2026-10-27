@@ -28,6 +28,3 @@ Uma experiência valiosa não precisa expor comandos, respostas ou detalhes inte
 
 Esse será o compromisso deste espaço: **compartilhar a jornada, não o conteúdo da prova**.
 
-## Próximos passos
-
-Os próximos textos serão publicados gradualmente, após revisão, e abordarão diferentes experiências com certificações práticas em cybersecurity.
