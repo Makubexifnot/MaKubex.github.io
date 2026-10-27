@@ -1,15 +1,103 @@
-/* Ajustes discretos sobre o tema Minimal Mistakes */
-:root { --brand-ink: #15273d; --brand-blue: #266d99; }
+/* Identidade visual do Makubex Journal; compatível com os dois temas. */
+:root {
+  --brand-ink: #15273d;
+  --brand-blue: #266d99;
+  --journal-divider: #e6edf2;
+  --journal-heading: #2c4d65;
+  --journal-quote: #f6f9fc;
+  --journal-table-header: #f0f5f9;
+}
+
+html[data-theme="light"] { color-scheme: light; }
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --brand-ink: #276678;
+  --brand-blue: #71c6d8;
+  --journal-divider: #46515e;
+  --journal-heading: #b7dce6;
+  --journal-quote: #303946;
+  --journal-table-header: #343e4b;
+}
+
 .greedy-nav a, .site-title, .page__title { letter-spacing: -.015em; }
 .page__title { line-height: 1.18; }
-.page__content h2 { padding-bottom: .28em; border-bottom: 1px solid #e6edf2; }
-.page__content h3 { color: #2c4d65; }
+.page__content h2 {
+  padding-bottom: .28em;
+  border-bottom: 1px solid var(--journal-divider);
+}
+.page__content h3 { color: var(--journal-heading); }
 .page__content p, .page__content li { line-height: 1.85; }
-.page__content blockquote { border-left: 4px solid var(--brand-blue); background: #f6f9fc; padding: .6rem 1rem; }
+.page__content blockquote {
+  border-left: 4px solid var(--brand-blue);
+  background: var(--journal-quote);
+  padding: .6rem 1rem;
+}
 .page__content table { font-size: .86em; }
-.page__content th { background: #f0f5f9; }
+.page__content th { background: var(--journal-table-header); }
 a { transition: color .15s ease; }
 .btn--primary { background: var(--brand-ink); }
 .btn--primary:hover { background: var(--brand-blue); }
 .author__avatar img { border-radius: 50%; }
-@media (max-width: 767px) { .page__content p, .page__content li { line-height: 1.7; } }
+
+/* Alternador: fixo e disponível na home, nos artigos e no celular. */
+.theme-toggle {
+  position: fixed;
+  right: 1.3rem;
+  bottom: 1.3rem;
+  z-index: 200;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  min-height: 44px;
+  padding: .65rem .95rem;
+  border: 1px solid #d4dfe8;
+  border-radius: 999px;
+  background: #fff;
+  color: #15273d;
+  box-shadow: 0 5px 20px rgba(12, 32, 50, .2);
+  font-family: inherit;
+  font-size: .85rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+.theme-toggle:hover {
+  background: #eff5f9;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(12, 32, 50, .24);
+}
+.theme-toggle:focus-visible {
+  outline: 3px solid #4b9bc5;
+  outline-offset: 3px;
+}
+.theme-toggle__icon {
+  display: inline-block;
+  font-size: 1.35rem;
+  line-height: .9;
+}
+html[data-theme="dark"] .theme-toggle {
+  background: #36414e;
+  border-color: #657485;
+  color: #f7fbfd;
+}
+html[data-theme="dark"] .theme-toggle:hover { background: #465362; }
+
+@media (max-width: 767px) {
+  .page__content p, .page__content li { line-height: 1.7; }
+}
+@media (max-width: 480px) {
+  .theme-toggle {
+    right: 1rem;
+    bottom: 1rem;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+  }
+  .theme-toggle__label { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle, a { transition: none; }
+}
