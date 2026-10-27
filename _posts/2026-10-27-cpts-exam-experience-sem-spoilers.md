@@ -29,7 +29,7 @@ Uma outra dica muito importante é IMAGINE o funcionamento do ambiente! Antes de
 
 *nmap -sC -Pn --min-rate=5000 <alvo> -oN scan_1k_<alvo>*
 
-E sites como para descriptografia de hashes, criação de revshells, etc.
+E sites para descriptografia de hashes, criação de revshells, etc.:
 
 *https://md5decrypt.net/, https://www.revshells.com/*
 
