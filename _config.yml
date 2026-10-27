@@ -1,0 +1,83 @@
+# GitHub Pages / Minimal Mistakes
+# Se publicar como projeto (nome diferente de Makubexifnot.github.io), ajuste baseurl.
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "default"
+locale: "pt-BR"
+title: "Makubex | Offensive Security Journal"
+title_separator: "|"
+subtitle: "Certificações, experiências e aprendizados"
+description: "Experiências reais em certificações de segurança ofensiva, sem spoilers, sem comandos e com foco no aprendizado."
+url: "https://Makubexifnot.github.io"
+baseurl: ""
+repository: "Makubexifnot/Makubexifnot.github.io"
+name: "Makubex"
+
+# URLs legíveis e índice de artigos
+permalink: /:categories/:title/
+paginate: 6
+paginate_path: /page:num/
+words_per_minute: 180
+search: true
+search_full_content: true
+breadcrumbs: true
+read_more: "enabled"
+
+# Plugins suportados no GitHub Pages
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Autor e perfil lateral
+author:
+  name: "Makubex"
+  avatar: "https://github.com/Makubexifnot.png"
+  bio: "Purple Team / Red Team • Aprendizado contínuo em segurança ofensiva. Compartilho minhas experiências de certificação sem spoilers."
+  location: "Brasil"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Makubexifnot"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Makubexifnot"
+
+# Páginas permanentes
+include:
+  - _pages
+
+# Valores padrão para posts e páginas
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      toc: true
+      toc_label: "Neste artigo"
+      toc_icon: "list"
+      toc_sticky: true
+      share: false
+      related: true
+      comments: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: false
+
+# Não publicar materiais auxiliares
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - "*.zip"
