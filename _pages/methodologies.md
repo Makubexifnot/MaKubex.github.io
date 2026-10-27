@@ -7,7 +7,7 @@ toc_label: "Nesta seção"
 toc_sticky: true
 ---
 
-O principal propósito desta seção é responder à pergunta: **o que examinar agora, por quê, e qual informação deve orientar a próxima decisão?** Não é uma lista de ferramentas ou comandos. É uma base de raciocínio que pode ser adaptada a laboratórios, estudos e avaliações de segurança **com autorização e escopo definidos**.
+O principal propósito desta seção é responder à pergunta: **o que examinar agora, por quê, e qual informação deve orientar a próxima decisão?** Mais do que uma lista de ferramentas, esta é uma base de raciocínio que pode ser adaptada a laboratórios, estudos e avaliações de segurança **com autorização e escopo definidos**.
 
 ## Comece pelo fluxo geral
 
@@ -52,6 +52,6 @@ Em cada etapa, registre:
 - **Próxima decisão:** por que essa evidência muda a prioridade.
 - **Risco e correção:** possível impacto, mitigação e evidência de reteste, quando aplicável.
 
-## Compromisso com exames
+## Da metodologia à experiência
 
-Este conteúdo é uma **metodologia geral de pentest**, não uma solução de laboratório ou exame. Não inclui comandos, flags, senhas, alvos, instruções de prova ou informações confidenciais. Para a dimensão pessoal, consulte [Experiências de exames]({{ '/experiencias/' | relative_url }}) e a [política anti-spoilers]({{ '/sem-spoilers/' | relative_url }}).
+Estas trilhas organizam processos que podem ser aplicados em ambientes diferentes. Para conhecer a trajetória por trás dos estudos e entender como fui aprimorando minha organização, veja também [Experiências de exames]({{ '/experiencias/' | relative_url }}).
