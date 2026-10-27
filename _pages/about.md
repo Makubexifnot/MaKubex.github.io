@@ -15,6 +15,4 @@ Criei este blog para documentar a parte menos visível da preparação para cert
 - Dificuldades de gestão de tempo, concentração, documentação e descanso.
 - Recomendações sobre estudo consistente e desenvolvimento de metodologia própria.
 
-**O que você não vai encontrar:** respostas de exames, flags, alvos, credenciais, detalhes confidenciais.
-
 Acompanhe também meu [GitHub](https://github.com/Makubexifnot).
