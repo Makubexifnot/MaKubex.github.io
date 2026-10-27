@@ -8,8 +8,8 @@ title_separator: "|"
 subtitle: "Certificações, experiências e aprendizados"
 description: "Experiências reais em certificações de segurança ofensiva, sem spoilers, sem comandos e com foco no aprendizado."
 url: "https://Makubexifnot.github.io"
-baseurl: ""
-repository: "Makubexifnot/Makubexifnot.github.io"
+baseurl: "/MaKubex.github.io"
+repository: "Makubexifnot/MaKubex.github.io"
 name: "Makubex"
 
 # URLs legíveis e índice de artigos
