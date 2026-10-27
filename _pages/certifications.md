@@ -20,6 +20,6 @@ Cada certificação representa uma etapa diferente do meu desenvolvimento profis
 | **CWES** | Segurança de aplicações web | Espaço reservado para relato futuro |
 | **CJCA** | Jornada de desenvolvimento técnico | Espaço reservado para relato futuro |
 
-> A presença de uma certificação nesta lista não indica necessariamente que o exame foi concluído. O status e o relato serão atualizados conforme aplicável.
+> A presença de uma certificação nesta lista não indica necessariamente que o exame foi concluído.
 
 Veja os textos já publicados em [Experiências]({{ '/experiencias/' | relative_url }}).
