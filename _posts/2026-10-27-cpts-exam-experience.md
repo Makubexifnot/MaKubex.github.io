@@ -9,13 +9,11 @@ tags:
   - Hack-The-Box
   - metodologia
   - relatorios
-excerpt: "O que minha jornada com o CPTS me ensinou sobre raciocínio, enumeração, organização das evidências e qualidade do relatório — sem spoilers."
+excerpt: "Como o CPTS mudou minha forma de organizar a enumeração, as evidências e a documentação técnica."
 toc: true
 toc_label: "Neste relato"
 toc_sticky: true
 ---
-
-> **Sobre este relato:** esta é uma versão inicial construída a partir de fatos já compartilhados sobre minha preparação e sobre o feedback do meu relatório. Não é um walkthrough e não revela informações sobre alvos, credenciais, flags, soluções ou infraestrutura do exame.
 
 ## Meu contexto
 
@@ -44,7 +42,7 @@ A estrutura que considero mais útil para manter o raciocínio é:
 
 **Portas → DNS → VHOSTs → serviços → hipótese → Rede interna → Privecsc/Pivoting → Identificação de ativos → Enumeração → Credential Hunting → Movimentação lateral → validação → reenumeração → evidências e relatório.**
 
-Essa é uma metodologia **geral e transferível**, não a sequência exata dos sistemas da prova. Documentei o processo em uma seção separada do blog:
+Esse fluxo serve como uma **referência flexível**: adapto as etapas conforme os serviços, as evidências e o contexto de cada ambiente. Organizei o processo em uma seção separada do blog:
 
 - [Fluxo geral de reconhecimento e enumeração]({{ '/metodologias/geral/' | relative_url }})
 - [Windows]({{ '/metodologias/windows/' | relative_url }}) e [Linux]({{ '/metodologias/linux/' | relative_url }})
@@ -53,9 +51,9 @@ Essa é uma metodologia **geral e transferível**, não a sequência exata dos s
 
 Meu objetivo ao compartilhar isso é ajudar outro estudante a desenvolver um **processo de decisão**, em vez de memorizar comandos.
 
-## O dia da avaliação: o que vale compartilhar
+## Organização durante o exame
 
-Sem entrar em conteúdo específico do exame, a recomendação que levo dessa experiência é registrar evidências **durante** a investigação, e não confiar que será possível reconstruir tudo ao final.
+Uma das recomendações mais importantes dessa experiência é registrar evidências **durante** a investigação, e não confiar que será possível reconstruir tudo ao final.
 
 Para cada descoberta relevante, vale preservar o contexto: de onde surgiu a pista, o que foi observado, por que ela mereceu atenção, o que foi confirmado e como aquela informação influenciou o próximo passo.
 
@@ -97,11 +95,9 @@ Esses cuidados servem tanto para certificações quanto para trabalhos profissio
 **Trate evidência como parte do processo.** Capturas e observações devem estar associadas às conclusões que sustentam.
 
 **Pratique escrita técnica e revisão.** Um relatório pode conter descobertas importantes e, ainda assim, precisar de melhorias para atender a um padrão profissional.
-
-**Respeite as regras do exame.** É possível compartilhar aprendizados sem divulgar detalhes confidenciais, respostas ou procedimentos específicos de uma avaliação.
-
+.
 ## Considerações finais
 
-Minha experiência com o CPTS reforçou a importância de unir **metodologia, raciocínio e comunicação técnica**. Este artigo é o ponto de partida: pretendo complementá-lo com detalhes pessoais que possam ser compartilhados com segurança, mantendo a confidencialidade da avaliação.
+Minha experiência com o CPTS reforçou a importância de unir **metodologia, raciocínio e comunicação técnica**. Quero continuar aprimorando este relato à medida que organizo novas reflexões sobre preparação, análise de ambientes e qualidade dos relatórios.
 
 Para aprofundar o processo aplicável a diferentes ambientes, comece pelo [índice de metodologias]({{ '/metodologias/' | relative_url }}).
