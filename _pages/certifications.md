@@ -12,6 +12,11 @@ Cada certificação representa uma etapa diferente do meu desenvolvimento profis
 | **eCPPT** | Pentest e metodologia | Em elaboração |
 | **CPTS** | Avaliação prática de intrusão | Em elaboração |
 | **CAPen** | Segurança ofensiva | Em elaboração |
+| **CRTA** | Red Team e Active Directory | Em elaboração |
+| **WEB-RTA** | Segurança ofensiva em aplicações web | Em elaboração |
+| **C3SA** | Experiência e foco a detalhar | Em elaboração |
+| **CNSP** | Segurança de redes e pentest | Em elaboração |
+| **CAPv2** | Experiência e foco a detalhar | Em elaboração |
 | **CWES** | Segurança de aplicações web | Espaço reservado para relato futuro |
 | **CJCA** | Jornada de desenvolvimento técnico | Espaço reservado para relato futuro |
 
