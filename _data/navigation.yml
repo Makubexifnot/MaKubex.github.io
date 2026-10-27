@@ -1,0 +1,11 @@
+main:
+  - title: "Início"
+    url: /
+  - title: "Experiências"
+    url: /experiencias/
+  - title: "Certificações"
+    url: /certificacoes/
+  - title: "Sobre"
+    url: /sobre/
+  - title: "Política anti-spoilers"
+    url: /sem-spoilers/
