@@ -95,7 +95,6 @@ Esses cuidados servem tanto para certificações quanto para trabalhos profissio
 **Trate evidência como parte do processo.** Capturas e observações devem estar associadas às conclusões que sustentam.
 
 **Pratique escrita técnica e revisão.** Um relatório pode conter descobertas importantes e, ainda assim, precisar de melhorias para atender a um padrão profissional.
-.
 ## Considerações finais
 
 Minha experiência com o CPTS reforçou a importância de unir **metodologia, raciocínio e comunicação técnica**. Quero continuar aprimorando este relato à medida que organizo novas reflexões sobre preparação, análise de ambientes e qualidade dos relatórios.
