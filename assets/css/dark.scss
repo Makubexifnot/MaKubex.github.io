@@ -1,0 +1,10 @@
+---
+search: false
+---
+
+@charset "utf-8";
+
+// Compila uma segunda variante oficial do Minimal Mistakes.
+// Carregada somente quando o leitor ativa o modo noturno.
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
