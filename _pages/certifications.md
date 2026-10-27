@@ -4,7 +4,7 @@ title: "Certificações e trajetória"
 excerpt: "Minhas experiências com certificações práticas de cybersecurity."
 ---
 
-Cada certificação representa uma etapa diferente do meu desenvolvimento profissional. Os relatos serão publicados gradualmente, sempre após minha revisão e respeitando as regras de confidencialidade de cada exame.
+Cada certificação representa uma etapa diferente do meu desenvolvimento profissional. Os relatos serão publicados gradualmente, reunindo os desafios, decisões e aprendizados mais relevantes de cada etapa.
 
 | Certificação | Foco principal | Relato |
 |---|---|---|
