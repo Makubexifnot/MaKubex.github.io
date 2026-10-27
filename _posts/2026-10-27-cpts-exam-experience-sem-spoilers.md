@@ -25,7 +25,7 @@ Consegui realizar o exame em exatamente 1 dia e 16h com apenas 4 horas de descan
 
 Uma das principais lições desse processo foi que nem tudo é realmente importante, haverá diversas informações ou credenciais que te levaram a nada.
 
-Uma outra dica muito importante é IMAGINE o funcionamento do ambiente! Antes de realizar qualquer certificação sempre imagino o que posso encontrar e me preparo antes desde a confiugração do meu garuda a scripts pré-configurados como msfvenom/burp-suite, bloodhound ligado pronto para receber seu import, e qualquer similar, comandos pré-configurados como 
+Uma outra dica muito importante é IMAGINE o funcionamento do ambiente! Antes de realizar qualquer certificação sempre imagino o que posso encontrar e me preparo antes desde a configuração do meu garuda a scripts pré-configurados como msfvenom/burp-suite, bloodhound ligado pronto para receber seu import, e qualquer similar, comandos pré-configurados como 
 
 *nmap -sC -Pn --min-rate=5000 <alvo> -oN scan_1k_<alvo>*
 
@@ -33,7 +33,7 @@ E sites como para descriptografia de hashes, criação de revshells, etc.
 
 *https://md5decrypt.net/, https://www.revshells.com/*
 
-Antes de eu iniciar o exame eu já sábia como ele deveria ser e acredito que o modúlo **Attacking Enterprise Networks** ajuda bastante nisso, quero dizer pelo menos na fase inicial. Então imagine, será que vou começar em um alvo externo, terei que comprometer uma aplicação web, terei que realizar algum tipo de credential hunting, descobrir outros vhosts e a partir daí irá começar meu verdadeiro trabalho? Será que existirá uma aplicação php? Será que a aplicação php possa ser vulnerável a um LFI/PHP Wrappers ou ataques semelhantes? Será que a aplicação web será vulnerável a um SQLI? Se sim, que campo seria? De login? De e-mail para recuperação de senha? E daí você vai montando sua metodologia própria!
+Antes de eu iniciar o exame eu já sábia como ele deveria ser e acredito que o modúlo **Attacking Enterprise Networks** ajuda bastante nisso, quero dizer, pelo menos na fase inicial. Então imagine! Será que vou começar em um alvo externo? Terei que comprometer uma aplicação web? Terei que realizar algum tipo de credential hunting? Descobrir outros vhosts e a partir daí irá começar meu verdadeiro trabalho? Será que existirá uma aplicação php? Será que a aplicação php possa ser vulnerável a um LFI/PHP Wrappers ou ataques semelhantes? Será que a aplicação web será vulnerável a um SQLI? Se sim, que campo seria? De login? De e-mail para recuperação de senha? E daí você vai montando sua estrutura de trabalho.
 
 
 ## O papel da metodologia
