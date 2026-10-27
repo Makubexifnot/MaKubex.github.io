@@ -1,6 +1,8 @@
 main:
   - title: "Início"
     url: /
+  - title: "Metodologias"
+    url: /metodologias/
   - title: "Experiências"
     url: /experiencias/
   - title: "Certificações"

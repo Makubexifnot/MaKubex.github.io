@@ -10,7 +10,7 @@ Cada certificação representa uma etapa diferente do meu desenvolvimento profis
 |---|---|---|
 | **eJPT** | Fundamentos de pentest | Em elaboração |
 | **eCPPT** | Pentest e metodologia | Em elaboração |
-| **CPTS** | Avaliação prática de intrusão | Em elaboração |
+| **CPTS** | Avaliação prática de intrusão | [Ler experiência]({{ '/experiencias/cpts/' | relative_url }}) |
 | **CAPen** | Segurança ofensiva | Em elaboração |
 | **CRTA** | Red Team e Active Directory | Em elaboração |
 | **WEB-RTA** | Segurança ofensiva em aplicações web | Em elaboração |
@@ -21,5 +21,7 @@ Cada certificação representa uma etapa diferente do meu desenvolvimento profis
 | **CJCA** | Jornada de desenvolvimento técnico | Espaço reservado para relato futuro |
 
 > A presença de uma certificação nesta lista não indica necessariamente que o exame foi concluído.
+
+Para o processo técnico de estudos, acesse também [Metodologias de Enumeração]({{ '/metodologias/' | relative_url }}).
 
 Veja os textos já publicados em [Experiências]({{ '/experiencias/' | relative_url }}).
