@@ -11,7 +11,7 @@ Cada certificação representa uma etapa diferente do meu desenvolvimento profis
 | **eJPT** | Fundamentos de pentest | [Ler experiência]({{ '/experiencias/ejpt/' | relative_url }}) |
 | **eCPPT** | Pentest e metodologia | [Ler experiência]({{ '/experiencias/ecppt/' | relative_url }}) |
 | **CPTS** | Avaliação prática de intrusão | [Ler experiência]({{ '/experiencias/cpts/' | relative_url }}) |
-| **CAPen** | Segurança ofensiva | Em elaboração |
+| **CAPen** | Pentest de aplicações web | [Ler experiência]({{ '/experiencias/capen/' | relative_url }}) |
 | **CRTA** | Red Team e Active Directory | Em elaboração |
 | **WEB-RTA** | Segurança ofensiva em aplicações web | Em elaboração |
 | **C3SA** | Experiência e foco a detalhar | Em elaboração |
