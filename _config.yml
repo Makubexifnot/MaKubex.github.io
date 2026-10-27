@@ -33,7 +33,7 @@ plugins:
 author:
   name: "Makubex"
   avatar: "https://github.com/Makubexifnot.png"
-  bio: "Purple Team / Red Team • Aprendizado contínuo em segurança ofensiva. Compartilho minhas experiências de certificação sem spoilers."
+  bio: "Purple Team / Red Team • Aprendizado contínuo em segurança ofensiva."
   location: "Brasil"
   links:
     - label: "GitHub"
